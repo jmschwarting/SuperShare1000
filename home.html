@@ -1,0 +1,575 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	<!-- Mine -->
+	<link rel="stylesheet" type="text/css" href="site.css">
+	<link rel="stylesheet" type="text/css" href="horizontal.css">
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-63661897-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+</head>
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SuperShare1000</a>
+    </div>
+  </div>
+</nav>
+
+<!-- END NAVBAR -->
+
+
+
+<!-- BANNER -->
+
+	<div class="row header">
+
+		<div class="container">
+
+			<div class="jumbotron col-md-6">
+				<h1>SuperShare</h1>
+				<p>The cleanest, easiest, most effective sharing widget on the web. Copy the code templates below or buy the plug-and-play widget.</p>
+				<!-- <p><a class="btn btn-success btn-lg" id="buyBtn" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ZFKX8TGUDQ76" target="_blank" role="button">Buy the widget | $50</a></p> -->
+
+
+
+
+				<!-- GOOGLE FORM -->
+
+				<!-- <form action="https://docs.google.com/forms/d/1bK5iolD4djflcazmA3srOco3BGGcqTQ595mMOpqAFvE/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit=""> -->
+
+				<script type="text/javascript">var submitted=false;</script>
+    			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='http://supershare1000.com/emailreceived.html';}"></iframe>
+    			<form action="https://docs.google.com/forms/d/1bK5iolD4djflcazmA3srOco3BGGcqTQ595mMOpqAFvE/formResponse?embedded=true" method="post"target="hidden_iframe" onsubmit="submitted=true;">
+
+
+				<ol role="list" class="ss-question-list" style="padding-left: 0">
+					<div class="ss-form-question errorbox-good" role="listitem">
+						<div dir="ltr" class="ss-item  ss-text">
+							<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_226907839">
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<input placeholder="Enter your email for beta access" type="email" name="entry.226907839" value="" class="ss-q-short valid" id="entry_226907839" dir="auto" aria-label="email address:  Hey... that's not a real email address" title="Hey... that's not a real email address">
+							<div class="error-message" id="4720167_errorMessage">Hey... that's not a real email address</div>
+							</div>
+						</div>
+					</div>
+				<input type="hidden" name="draftResponse" value="[,,&quot;-1724790088178997562&quot;]
+				">
+				<input type="hidden" name="pageHistory" value="0">
+
+				<input type="hidden" name="fbzx" value="-1724790088178997562">
+
+				<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr>
+				<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+					<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+				</td>
+				</tr>
+				</tbody>
+				</table>
+				</div>
+				</ol>
+				</form>
+
+				<!-- GOOGLE FORM -->
+
+
+
+
+
+
+
+
+			</div>
+
+			<div class="widget col-md-6">
+
+				<div class="ssShareWidget">
+					<div id="ssShares">
+						<h1 id="ssShareCount">0</h1>
+						<p>shares</p>
+					</div>
+
+					<div class="ssShareGroup">
+						<a id="ssfbURL" href="">
+							<button class="ssShareBtn fb">
+								Facebook
+							</button>
+						</a>
+
+						<a id="sstwitterURL" href="">
+							<button class="ssShareBtn twitter">
+								Twitter
+							</button>
+						</a>
+
+						<a id="ssliURL" href="">
+							<button class="ssShareBtn li">
+								LinkedIn
+							</button>
+						</a>
+
+					</div>
+				</div>
+
+				<div>
+					<img id="try" src="images/try.png">
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<!-- END BANNER -->
+
+
+
+<div class="container">
+
+<!-- SELLING POINTS -->
+
+	<div class="row text-center" id='points'>
+
+		<div id="inc" class="col-sm-3">
+			<h1><span class="glyphicon glyphicon-signal"></span></h1>
+			<p>Increases shares and traffic by 35% on average</p>
+		</div>
+
+		<div id="easy" class="col-sm-3">
+			<h1><span class="glyphicon glyphicon-flash"></span></h1>
+			<p>Super easy to install with a single line of code</p>
+		</div>
+
+		<div class="col-sm-3">
+			<h1><span class="glyphicon glyphicon-flag"></span></h1>
+			<p>Use on as many pages as you want - it'll detect where it is</p>
+		</div>
+
+		<div class="col-sm-3">
+			<h1><span class="glyphicon glyphicon-ok"></span></h1>
+			<p>Easily re-style in your own CSS file with unique classes</p>
+		</div>		
+	</div>
+
+<!-- SELLING POINTS -->
+
+
+
+<!-- PIC -->
+
+<!-- 	<div class="pic row text-center">
+		<img src="images/main.png">
+	</div> -->
+
+<!-- END PIC -->
+
+
+
+<!-- IMPLEMENTATION -->
+
+	<div class="page-header">
+		<h1>Sample Widget Code</h1>
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-6">
+			<p>Copy and past the code highlighted in green into your own website where you want the sharing widget to appear.</p>
+			<div class="highlight">
+				<pre id="sample">&#60;script type="text/javascript" id ="ssShareWidgetScript" src="http://supershare1000.com/ssSampleScript.js">&#60;/script></pre>
+			</div>
+			<p>*The sample code is for testing and uses SuperShare1000.com sharing links. To turn on sharing for your site, use the full code (below in gray) or buy the widget.</p>
+
+		</div>
+
+		<div class="col-md-6">
+			<img src="images/demo2.gif">
+		</div>
+
+	</div>
+
+<!-- END IMPLEMENTATION -->
+
+
+
+
+
+
+<!-- CODE SNIPPETS -->
+
+	<div class="page-header">
+		<h1>Full Code  <!-- | <small>Do it yourself or <a class="btn btn-success" id="buyBtn2" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ZFKX8TGUDQ76" target="_blank" role="button">buy the widget</a></small> --></h1>
+	</div>
+
+
+
+
+
+	<h2>HTML</h2>
+	<div class="highlight">
+		<pre>
+		<code>
+&#60;div class="ssShareWidget">
+	&#60;div id="ssShares">
+		&#60;h1 id="ssShareCount">0&#60;/h1>
+		&#60;p>shares&#60;/p>
+	&#60;/div>
+	&#60;div class="ssShareGroup">
+		&#60;a id="ssfbURL" href="">
+			&#60;button class="ssShareBtn fb">
+				Facebook
+			&#60;/button>
+		&#60;/a>
+		&#60;a id="sstwitterURL" href="">
+			&#60;button class="ssShareBtn twitter">
+				Twitter
+			&#60;/button>
+		&#60;/a>
+		&#60;a id="ssliURL" href="">
+			&#60;button class="ssShareBtn li">
+				LinkedIn
+			&#60;/button>
+		&#60;/a>
+	&#60;/div>
+&#60;/div></code>
+		</pre>
+	</div>
+
+
+
+
+
+	<h2>CSS</h2>
+	<div class="highlight">
+		<pre>
+		<code>
+.ssShareWidget {
+	font-family: sans-serif;
+	display: flex;
+}
+
+#ssShares {
+	margin: 0px 10px;
+	text-align: center;
+}
+
+#ssShares p {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+#ssShareCount {
+	color: #4FD45C;
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.ssShareGroup {
+	max-width: 300px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.ssShareBtn {
+	height: 35px;
+	width: 100px;
+	cursor: pointer;
+	border: none;
+	font-size: 14px;
+}
+
+.ssShareBtn.fb {
+	background-color: #2d5f9a;
+	color: white;
+}
+
+.ssShareBtn.twitter {
+	background-color: #00c3f3;
+	color: white;
+}
+
+.ssShareBtn.li {
+	background-color: #2ba3e1;
+	color: white;
+}
+
+.ssShareBtn:hover {
+	background-color: black;
+}
+
+.ssShareBtn a {
+	color: white;
+}</code>
+		</pre>
+	</div>
+
+
+
+
+
+	<h2>Javascript</h2>
+	<div class="highlight">
+		<pre>
+		<code>
+  var url = window.location.href;
+
+    // URL CLEANSING ///////////////////////////////////////////////////////////////////////////////////////////////
+    var cleanURL = url.replace("www.", "")
+    var wwwURL = url.replace("://", "://www.")
+
+    // SHARE COUNTS ///////////////////////////////////////////////////////////////////////////////////////////////
+    var twitterCount = 0;
+    var fbCount = 0;
+    var fbComments = 0;
+    var liCount = 0;
+
+    // DATA RECEIVED ///////////////////////////////////////////////////////////////////////////////////////////////
+    var dataReceived = 0;
+
+    // SUMMING VARIABLES ///////////////////////////////////////////////////////////////////////////////////////////////
+    var totalCount = 0;
+    var roundedCount = 0;
+
+    // COUNTER VARIABLES ///////////////////////////////////////////////////////////////////////////////////////////////
+    var countInterval = 50;
+    var distance = 15;
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // SET SHARE URLS ON SHARE BUTTONS
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    $('#ssfbURL').attr("href", "javascript:window.open('http%3A%2F%2Fwww.facebook.com%2Fshare.php?u=" + url + "', '_blank', 'width=400,height=500');void(0);")
+    $('#sstwitterURL').attr("href", "javascript:window.open('https://twitter.com/intent/tweet?url=" + url + "', '_blank', 'width=400,height=500');void(0);")
+    $('#ssliURL').attr("href", "javascript:window.open('https://www.linkedin.com/shareArticle?url=" + url + "', '_blank', 'width=400,height=500');void(0);")
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // CHECK FOR DATA
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    var runThisTown = function () {
+      dataReceived++;
+      if (dataReceived >= 3) {
+        updateCount();
+      }
+    };
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // UPDATE SHARECOUNT
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    var updateCount = function () {
+      totalCount = twitterCount + fbCount + fbComments + liCount;
+      animateCount();
+    }
+
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // ANIMATE SHARECOUNT
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    var animateCount = function () {
+      var number = 0;
+      if (totalCount < distance) {
+        number = 0;
+      } else if (totalCount > distance) {
+        number = totalCount - distance;
+      }
+      var countup2 = setInterval(function () {
+        $('#ssShareCount').text(number);
+        if (number >= totalCount) {
+          clearInterval(countup2);
+        }
+        number++;
+      }, countInterval);
+    };
+
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // GET & ADD SHARES
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // GET TWITTER SHARES
+    var getTwitter = (function () {
+
+      jQuery.getJSON('https://cdn.api.twitter.com/1/urls/count.json?url='+ cleanURL + '&callback=?', function (data) {
+        if (data.count) {
+          twitterCount = twitterCount + data.count;
+        };
+      });
+
+      jQuery.getJSON('https://cdn.api.twitter.com/1/urls/count.json?url='+ wwwURL + '&callback=?', function (data) {
+        if (data.count) {
+          wwwTwitterCount = twitterCount + data.count;
+        };
+        runThisTown();
+      });
+
+    })();
+
+
+    //GET FACEBOOK SHARES & COMMENTS
+    var getFacebook = (function () {
+      
+      jQuery.getJSON('http://graph.facebook.com/' + url, function (data) {
+        if (data.shares) {
+          fbCount = fbCount + data.shares;
+        }
+        if (data.comments) {
+          fbComments = fbCount + data.comments;
+        };
+        runThisTown();
+      });
+
+    })();
+
+
+    //GET LINKEDIN SHARES
+    var getLinkedIn = (function () {
+
+      jQuery.getJSON('http://www.linkedin.com/countserv/count/share?url=' + url + '&callback=?', function (data) {
+        if (data.count) {
+          liCount = liCount + data.count;
+        }
+        runThisTown();
+      });
+
+    })();</code>
+		</pre>
+	</div>
+
+<!-- END CODE SNIPPETS -->
+
+
+
+
+
+<!-- FINE PRINT -->
+
+
+
+<!-- FINE PRINT -->
+
+
+
+
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="jumbotron footer">
+	
+	<div class="container">
+		<div class="page-header">
+			<h1>Fine Print</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<ul>
+					<li>In order to eliminate conflicts, the widget code will not run if there is more than one instance on the same page</li>
+					<li>The widget may not play nicely with other share buttons - if you have trouble with it, get rid of any other share buttons on the page</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- END FOOTER -->
+
+
+
+
+
+
+
+<script src="site.js"></script>
+
+<!-- STRIPE
+
+<script src="https://checkout.stripe.com/checkout.js"></script>
+
+<script>
+  var handler = StripeCheckout.configure({
+    key: 'pk_live_2DQMaiM7A4OGkEKmSFdqrGqH',
+    image: 'images/ss1000.png',
+    token: function(token) {
+      // Use the token to create the charge with a server-side script.
+      // You can access the token ID with `token.id`
+    }
+  });
+
+  $('#buyBtn').on('click', function(e) {
+    // Open Checkout with further options
+    handler.open({
+      name: 'SuperShare',
+      description: 'SuperShare Widget Code',
+      amount: 5000
+    });
+    e.preventDefault();
+  });
+
+  $('#buyBtn2').on('click', function(e) {
+    // Open Checkout with further options
+    handler.open({
+      name: 'SuperShare',
+      description: 'SuperShare Widget Code',
+      amount: 5000
+    });
+    e.preventDefault();
+  });
+
+  // Close Checkout on page navigation
+  $(window).on('popstate', function() {
+    handler.close();
+  });
+</script>
+
+END STRIPE -->
+
+
+</body>
+</html>

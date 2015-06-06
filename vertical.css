@@ -1,0 +1,65 @@
+/*STYLES*/
+.shareWidget {
+	font-family: 'Open Sans';
+}
+
+#shares {
+	width: 150px;
+}
+
+#shares h1 {
+	margin: 0;
+}
+
+#shares p {
+	margin-top: 0;
+}
+
+#shareCount {
+	color: #ccc;
+	text-align: center;
+}
+
+#shares p {
+	text-align: center;
+}
+
+.shareGroup {
+	max-width: 70px;
+	text-align: center;
+	padding: 0px 40px;
+}
+
+.shareGroup h4 {
+	margin: 0;
+}
+
+.shareBtn {
+	height: 35px;
+	width: 100%;
+	cursor: pointer;
+	border: none;
+}
+
+.shareBtn.fb {
+	background-color: #2d5f9a;
+	color: white;
+}
+
+.shareBtn.twitter {
+	background-color: #00c3f3;
+	color: white;
+}
+
+.shareBtn.li {
+	background-color: #2ba3e1;
+	color: white;
+}
+
+.shareBtn:hover {
+	background-color: black;
+}
+
+.shareBtn a {
+	color: white;
+}

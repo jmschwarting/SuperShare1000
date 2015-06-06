@@ -1,0 +1,130 @@
+body {
+	font-family: "Open Sans";
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+
+
+.header {
+	/*background: url("https://download.unsplash.com/photo-1422479516648-9b1f0b6e8da8") 50% 25% no-repeat scroll;*/
+	background-size: cover;
+	border-bottom: 1px solid #ccc;
+}
+
+.jumbotron {
+	background: rgba(0,0,0,0);
+	margin-bottom: 0;
+}
+
+.stripe-button {
+	background-color: #4FD45C;
+	border: 0px;
+	color: white;
+}
+
+.btn {
+	background-color: #4FD45C;
+	border: 0px;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #34DC44;
+}
+
+#try {
+	max-width: 50%;
+	margin: 5% 25% 0% 25%;
+}
+
+#points {
+	color: #777;
+	padding-top: 100px;
+}
+
+#points h1 {
+	font-size: 50px;
+}
+
+#points p {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+.widget {
+	margin-top: 135px;
+	padding: 40px 70px;
+	background: rgba(300,300,300,1);
+}
+
+img {
+	max-width: 100%;
+}
+
+.page-header {
+	margin-top: 150px;
+}
+
+#sample {
+	background-color: #AFFFBA;
+}
+
+p {
+	font-size: 17px;
+	padding-bottom: 25px;
+}
+
+li {
+	font-size: 17px;
+	padding-bottom: 25px;
+}
+
+.footer {
+	background-color: #222;
+	margin-top: 100px;
+	color: white;
+}
+
+.highlight {
+	margin-bottom: 	35px;
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+/* GOOGLE FORM */
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#ss-submit {
+	background-color: #4FD45C;
+	color: white;
+	border: none;
+	font-size: 17px;
+	padding: 15px;
+}
+
+#ss-submit:hover {
+	background-color: black;
+	border: none;
+}
+
+.ss-q-short {
+	padding: 12px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.error-message {
+	display: none;
+}
